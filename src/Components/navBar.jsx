@@ -35,14 +35,16 @@ export const navLinks = [
 const NavBar = ({ active, setActive }) => {
   return (
     <>
-      <nav className=" flex items-center justify-between mx-2 p-1">
-        <span className="p-3 justify-stretch ml-9 text-[20px] font-extrabold uppercase text-blue mr-12">Fayaz Ahamed D</span>
-        <ul className="flex justify-end mr-6">
+      <nav className=" flex flex-row items-center justify-between mx-2 p-1">
+        <span className="justify-stretch text-[20px] font-extrabold uppercase text-blue mx-10">
+          Fayaz Ahamed D
+        </span>
+        <ul className="flex justify-evenly flex-wrap ">
           {navLinks.map((item, index) => (
             <li
-              className={` font-semibold text-[20px] p-2 ${
+              className={` font-semibold text-[20px] p-2 mr-10 ${
                 active === item.id ? "text-blue" : "text-true-black"
-              } ${index === navLinks.length - 1 ? "mr-0" : "mr-10"}`}
+              }`}
               key={index}
               onClick={() => setActive(item.id)}
             >

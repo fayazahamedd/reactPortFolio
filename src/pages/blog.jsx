@@ -10,7 +10,7 @@ const Blog = ({ setActive }) => {
   }, [setActive]);
 
   return (
-    <div className="flex flex-col flex-initial w-full h-full ">
+    <div className="flex flex-col flex-initial w-full h-full mb-6 ml-11 mr-12 ">
       <h3 className="text-blue font-extrabold text-[17px] capitalize">
         MY BLOGS
       </h3>

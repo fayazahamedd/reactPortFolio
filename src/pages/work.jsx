@@ -10,7 +10,7 @@ const Work = ({ setActive }) => {
   }, [setActive]);
 
   return (
-    <div className="flex flex-col items-center justify-center h-full mb-6">
+    <div className="flex flex-col items-center justify-center h-full mb-6 ml-6 mr-8">
       <h3 className="text-blue font-extrabold text-[17px] capitalize">
         MY WORKS
       </h3>
@@ -18,7 +18,7 @@ const Work = ({ setActive }) => {
         Far far away, behind the word mountains, far from the countries Vokalia
         and Consonantia
       </p>
-      <div className="flex flex-row flex-wrap justify-evenly w-full">
+      <div className="flex flex-row flex-wrap justify-between w-full">
         {data.map((item, index) => (
             <ImageCarosel key={index} card={item} />
         ))}

@@ -67,15 +67,15 @@ const skills = [
   
   export const projectData = [
     {
-      text: "FULL STACK APPLICATION DEVELOPMENT",
+      text: "FULL STACK DEVELOPMENT",
       icon: "faProjectDiagram",
       description: "A complete management of Front end which connected by middleware and also store in the Database",
       link: "https://github.com/fayazahamedd/Full-Stack"
     },
     {
-      text: "MOBILE APPLICATION DEVELOPMENT",
+      text: "MOBILE APPLICATION",
       icon: "",
-      description: "The app is composed of two screens. The first screen displays a list of books, including the publisher and no. of pages",
+      description: "The app is composed of two screens. The first screen displays a list of books, including the publisher",
       link: "https://github.com/fayazahamedd/Mobile-Application",
     },
     {
@@ -90,19 +90,13 @@ const skills = [
       description: "Basic Ethical Hacking which helps to protect the data and plays a major role in the development",
     },
     {
-      text: "WEB DEVELOPMENT",
+      text: "WEB APPLICATION DEVELOPMENT",
       icon: "faWeebly",
       description: "Managing the information and current We build websites mainly in UI/UX design which happens completely online",
       link: "https://github.com/fayazahamedd/Ethical-Hacking",
     },
     {
-      text: "CAR CRASH",
-      icon: "faCar",
-      description: "Moving of Cars from Left, Right, Top, Bottom Playing of Car Crash using JQuery",
-      link: "https://github.com/fayazahamedd/Car-Crash",
-    },
-    {
-      text: "BUILD CHATBOTS FOR ANDROID USING DIALOGFLOW IN ANDROID STUDIO",
+      text: "CHATBOTS FOR ANDROID USING DIALOGFLOW IN ANDROID STUDIO",
       icon: "faAndroid",
       description: "A simple my assistant using Google Dialogflow which is used for personal usages",
       link: "https://github.com/fayazahamedd/-Build-chatbots-for-Android-using-Dialogflow-Android-studio-."
@@ -118,7 +112,13 @@ const skills = [
       icon: "faSmileBeam",
       description: "Extract text from image & Detect the smile of a face using ML Technologies on Android Studio",
       link: "https://github.com/fayazahamedd/Text-Recognizer",
-    }
+    },
+    {
+      text: "CAR CRASH",
+      icon: "faCar",
+      description: "Moving of Cars from Left, Right, Top, Bottom Playing of Car Crash using JQuery",
+      link: "https://github.com/fayazahamedd/Car-Crash",
+    },
   ];
   
 

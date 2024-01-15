@@ -12,7 +12,7 @@ const Skills = ({ setActive }) => {
   console.log("skills", skills);
 
   return (
-    <div className="flex flex-col items-center justify-center h-fit mb-6">
+    <div className="flex flex-col items-center justify-center h-fit mb-6 ml-11 mr-14">
       <h3 className="text-blue font-extrabold text-[17px] capitalize">
         MY SKILLS
       </h3>
@@ -20,7 +20,7 @@ const Skills = ({ setActive }) => {
         Far far away, behind the word mountains, far from the countries Vokalia
         and Consonantia
       </p>
-      <div className="flex flex-row mr-10 flex-wrap justify-center mb-6">
+      <div className="flex flex-row flex-wrap justify-center">
         {skills?.map((item, index) => (
             <ProgressSkill key={index} progress={item} />
         ))}

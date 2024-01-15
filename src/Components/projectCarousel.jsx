@@ -31,10 +31,10 @@ const getIconByName = (iconName) => {
   }
 }
 
-const ProjectsCarousel = ({ card }) => {
+const ProjectsCarousel = ({ card, index }) => {
 
     return (
-      <div className="flex flex-col justify-center p-3 my-3 bg-white rounded-xl shadow-lg w-[23%] h-[33%] mr-5 relative">
+      <div className={`flex flex-col justify-center p-3 my-3 bg-white rounded-xl shadow-lg w-[23%] h-[33%]`}>
         <a href={card.link}>
           <div className="flex flex-row justify-center mt-2">
             <FontAwesomeIcon

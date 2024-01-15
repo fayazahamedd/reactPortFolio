@@ -10,17 +10,17 @@ const Home = ({ setActive }) => {
   }, [setActive]);
 
   return (
-    <div className="flex flex-col justify-center h-full mb-1 w-full ">
-      <div className="flex flex-row mt-1 ">
-        <div className="flex flex-col w-2/3 ">
-          <div className="flex  flex-row align-middle mt-[25%]">
+    <div className="flex flex-col justify-center">
+      <div className="flex flex-row mt-1 justify-between">
+        <div className="flex flex-col">
+          <div className="flex  flex-row align-middle mt-40 ">
             <p className="text-6xl font-extrabold text-[35px]">
               {" "}
               Hi, I am Fayaz Ahamed
             </p>
           </div>
 
-          <h1 className="font-mediums text-[35px] mt-4 ml-24">
+          <h1 className="font-mediums text-[35px] mt-4">
             Ready to
             <span className="slider">
               <span className="slider__word font-bold text-[35px] text-left ml-2">
@@ -35,7 +35,7 @@ const Home = ({ setActive }) => {
             </span>
           </h1>
 
-          <div className="flex  flex-row ml-24">
+          <div className="flex flex-row">
             <Link to="/projects">
               <button className="bg-blue text-white h-8 w-24 text-center rounded-md mt-4">
                 Projects
@@ -49,10 +49,10 @@ const Home = ({ setActive }) => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-grow-0 justify-center w-1/3  h-[90%] mr-24">
+        <div className="flex flex-col ml-2">
           <p>
             <img
-              className="h-[472px] w-full"
+              className="h-[85vh]"
               src="../src/images/imgaboutNew1.png"
               alt="Post 1"
             />

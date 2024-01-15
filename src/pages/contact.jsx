@@ -22,7 +22,7 @@ const Contact = ({ setActive }) => {
   }, [setActive]);
 
   return (
-    <div className="flex flex-row w-full h-full">
+    <div className="flex flex-row w-full h-full mb-6 ml-11 mr-12 justify-between">
       <div className="flex flex-col w-[1/2] ">
         <form role="form" className="bg-white shadow-xl rounded-md h-full ">
           <h1 className="text-center font-extrabold text-[19px] m-4 ">
