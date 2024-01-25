@@ -12,10 +12,12 @@ export default defineConfig({
       '@pages': pathResolve('./src/pages'),
     },
   },
+  
   server: {
     port: 3210,
     open: true, // Open the default browser when the server starts
   },
+
   build: {
     // Disable source maps for production build
     sourcemap: false,

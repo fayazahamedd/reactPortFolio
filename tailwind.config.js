@@ -4,6 +4,7 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  
   theme: {
     colors: {
       'primary': "#8265F5", 
@@ -18,6 +19,7 @@ export default {
       'dimWhite': "rgba(255, 255, 255, 0.7)",
       'dimBlue': "rgba(9, 151, 124, 0.1)",
     },
+
     extend: {
       fontFamily: {
         'inters': ['Inter', 'sans-serif'],
@@ -27,6 +29,7 @@ export default {
         'bolds': ['Inter Bold', 'sans-serif'],
       }
     },
+
     screens: {
       'xs': "480px",
       'ss': "620px",
